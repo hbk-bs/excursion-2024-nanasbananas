@@ -1,14 +1,16 @@
-* {
+*{
   box-sizing: border-box;
+  gap: 5rem;
 }
 html {
-  font-size: 18px;
+  font-size: 15px;
 }
 body {
   font-family: 'Roboto', sans-serif;
-  margin: 0;
   padding: 0;
-  width: 100vw;
+  max-width: 50vw;
+  margin: 0 auto;
+  text-align: center;
 }
 main {
   display: flex;
@@ -17,7 +19,6 @@ main {
   justify-content: center;
   align-items: center;
 }
-
 figure {
   margin: 0;
   display: flex;
@@ -26,13 +27,23 @@ figure {
   align-items: center;
   gap: 1rem;
 }
-
 img {
   max-width: 100%;
   height: auto;
 }
-
 figcaption {
   font-size: 1.5rem;
   font-weight: 700;
+  font-size: 1rem;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.row{
+    display: flex;
+    flex-direction: row;
 }
